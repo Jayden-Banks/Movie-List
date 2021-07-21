@@ -51,30 +51,3 @@ function revealMessage() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////////Copy of part 1/////////////////
-// function addMovie(event) {
-//     event.preventDefault()
-//     let inputField = document.querySelector('input').value
-//     let movie = document.createElement('li')
-//     let movieTitle = document.createElement('span')
-//     movieTitle.textContent = inputField
-    
-//     movie.appendChild(movieTitle)
-//     document.querySelector('ul').appendChild(movie)
-//     inputField = '' //Why doesn't this work?
-// }
-
-// document.querySelector('form').addEventListener('submit', addMovie)
